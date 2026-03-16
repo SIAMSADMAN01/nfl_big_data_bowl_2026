@@ -157,6 +157,53 @@ src/config.py
 
 ------------------------------------------------------------------------
 
+# Environment Setup
+
+This project uses Python and a virtual environment to manage dependencies.
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/SIAMSADMAN01/nfl_big_data_bowl_2026.git
+cd nfl_big_data_bowl_2026
+```
+
+### 2. Create a virtual environment
+
+```bash
+python3 -m venv .venv
+```
+
+### 3. Activate the virtual environment
+
+Mac/Linux:
+
+```bash
+source .venv/bin/activate
+```
+
+Windows:
+
+```bash
+.venv\Scripts\activate
+```
+
+### 4. Install required packages
+
+```bash
+pip install -r requirements.txt
+```
+
+### 5. Start Jupyter
+
+```bash
+jupyter notebook
+```
+
+Then run the notebooks in the order described in the **Reproducibility Workflow** section.
+
+------------------------------------------------------------------------
+
 # Reproducibility Workflow
 
 The analysis is organized into four notebooks.
