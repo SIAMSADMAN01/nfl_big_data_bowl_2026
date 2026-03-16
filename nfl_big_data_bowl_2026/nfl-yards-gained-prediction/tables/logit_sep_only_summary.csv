@@ -1,0 +1,5 @@
+term,value
+intercept,0.162808
+sep_at_throw,0.119645
+odds_ratio_sep_at_throw,1.127097
+auc,0.563284
