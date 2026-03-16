@@ -1,0 +1,3 @@
+Split,Observations,TimeVariable,TimeRange
+Train,10581,week,1 -- 14
+Test,3527,week,14 -- 18
